@@ -1,7 +1,8 @@
 int main() {
     int *x;
 
-    x = malloc(sizeof(int));
+    //x = malloc(sizeof(int));
+      x = calloc(1, sizeof(int));
 
     if(x){
         printf("memoria alocada com sucesso!\n");
